@@ -1,0 +1,22 @@
+@import "~leaflet/dist/leaflet.css";
+
+ion-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertikal Centering */
+  align-items: center; /* Horizontal Centering */
+  height: 100%; /* Pastikan konten memanfaatkan tinggi penuh */
+}
+
+#map {
+  width: 100%;
+  height: 50%; /* Atur tinggi peta sesuai kebutuhan */
+}
+
+ion-item {
+  margin: 8px 0; /* Tambahkan margin untuk jarak dari elemen lain */
+}
+
+ion-button {
+  margin: 16px; /* Tambahkan margin untuk jarak dari elemen lain */
+}
